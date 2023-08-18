@@ -8,6 +8,10 @@
   },
   "packageManager": "yarn@3.6.2",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "monoprac": "file:../common"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2"
   }
 }
