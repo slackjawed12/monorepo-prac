@@ -1,0 +1,6 @@
+{
+  "name": "@monoprac/common",
+  "version": "1.0.0",
+  "description": "monoprac common package",
+  "packageManager": "yarn@3.6.2"
+}
