@@ -2,5 +2,24 @@
   "name": "@monoprac/common",
   "version": "1.0.0",
   "description": "monoprac common package",
-  "packageManager": "yarn@3.6.2"
+  "main": "./dist/index.js",
+  "module": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist esm && tsc --declaration --emitDeclarationOnly --declarationDir dist"
+  },
+  "packageManager": "yarn@3.6.2",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
 }
