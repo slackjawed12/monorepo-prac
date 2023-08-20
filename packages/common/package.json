@@ -16,7 +16,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rm -rf dist esm && tsc --declaration --emitDeclarationOnly --declarationDir dist"
+    "build": "rm -rf dist esm && tsc"
   },
   "packageManager": "yarn@3.6.2",
   "devDependencies": {
