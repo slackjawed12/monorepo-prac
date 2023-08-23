@@ -139,3 +139,6 @@ dist
 **/.vscode/
 **/envs
 **/dump.rdb
+
+# turborepo
+.turbo

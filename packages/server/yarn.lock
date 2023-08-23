@@ -809,8 +809,8 @@ __metadata:
 
 "@monoprac/common@file:../common::locator=server%40workspace%3A.":
   version: 1.0.0
-  resolution: "@monoprac/common@file:../common#../common::hash=769846&locator=server%40workspace%3A."
-  checksum: 60a1f9b05822e40e2c23c0cd37bcd84dc295a78fd6a27e14599919fcc753713f5e00f220933d8f56042a686586752913be2c3cd8881f897d3dedadc3a7ba73af
+  resolution: "@monoprac/common@file:../common#../common::hash=705fc3&locator=server%40workspace%3A."
+  checksum: 15008ba5fc63cff74a4d13aa74717396cbf9beb3a95425b92025c50177fe7005b57a2c27ae11e59a343b46767b7b8ead1243a4e1641616a7883d3739f679631a
   languageName: node
   linkType: hard
 
