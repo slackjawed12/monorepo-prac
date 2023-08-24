@@ -1,5 +1,5 @@
 import { map, isNil } from "lodash";
-import { CURRENT_API_VERSION } from "@monoprac/common";
+import { CURRENT_API_VERSION } from "monoprac-common";
 import { resolve } from "path";
 const app = Array.from(Array(10), (_) => 0);
 

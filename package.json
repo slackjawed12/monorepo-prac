@@ -1,6 +1,11 @@
 {
   "name": "@monoprac/monoprac",
   "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "description": "monoprac root package",
   "packageManager": "yarn@3.6.2",
   "devDependencies": {
