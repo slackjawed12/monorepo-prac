@@ -1,5 +1,5 @@
 {
-  "name": "monoprac-common",
+  "name": "@monoprac/common",
   "version": "1.0.0",
   "description": "monoprac common package",
   "main": "./src/index.ts",

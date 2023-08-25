@@ -2472,6 +2472,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@monoprac/common@*, @monoprac/common@workspace:packages/common":
+  version: 0.0.0-use.local
+  resolution: "@monoprac/common@workspace:packages/common"
+  dependencies:
+    typescript: ^5.1.6
+  languageName: unknown
+  linkType: soft
+
 "@monoprac/monoprac@workspace:.":
   version: 0.0.0-use.local
   resolution: "@monoprac/monoprac@workspace:."
@@ -10055,14 +10063,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"monoprac-common@*, monoprac-common@workspace:packages/monoprac-common":
-  version: 0.0.0-use.local
-  resolution: "monoprac-common@workspace:packages/monoprac-common"
-  dependencies:
-    typescript: ^5.1.6
-  languageName: unknown
-  linkType: soft
-
 "ms@npm:2.0.0":
   version: 2.0.0
   resolution: "ms@npm:2.0.0"
@@ -12558,6 +12558,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "server@workspace:apps/server"
   dependencies:
+    "@monoprac/common": "*"
     "@types/express": ^4.17.17
     "@types/lodash": ^4.14.197
     "@typescript-eslint/eslint-plugin": latest
@@ -12566,7 +12567,6 @@ __metadata:
     express: ^4.18.2
     jest: ^29.6.2
     lodash: ^4.17.21
-    monoprac-common: "*"
     ts-node-dev: ^2.0.0
     tsconfig: "*"
     typescript: ^5.1.6
