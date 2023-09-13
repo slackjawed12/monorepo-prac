@@ -13,10 +13,10 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "build": "rm -rf dist esm && tsc --declarationDir dist src/index.ts"
+    "build": "rm -rf dist esm && npx tsc --declarationDir dist"
   },
   "packageManager": "yarn@3.6.2",
   "devDependencies": {
-    "typescript": "^5.1.6"
+    "typescript": "^5.2.2"
   }
 }
