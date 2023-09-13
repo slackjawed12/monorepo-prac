@@ -15,7 +15,6 @@
   "scripts": {
     "build": "rm -rf dist esm && npx tsc --declarationDir dist"
   },
-  "packageManager": "yarn@3.6.2",
   "devDependencies": {
     "typescript": "^5.2.2"
   }

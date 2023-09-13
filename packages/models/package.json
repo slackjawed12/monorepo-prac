@@ -15,7 +15,6 @@
   "scripts": {
     "build": "rm -rf dist esm && tsc src/index.ts"
   },
-  "packageManager": "yarn@3.6.2",
   "dependencies": {
     "sequelize": "^6.32.1"
   },
